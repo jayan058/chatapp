@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chat App</title>
+</head>
+<body>
+    <div class="person-selector" >
+        <button class=" button person-selector-button active-person" id="John-selector" > John </button> 
+        <button class=" button person-selector-button " id="Jane-selector">Jane</button>
+    </div>
+    <div class="Chat-contanior">
+        <header class="Chat-Header">John Chatting...........</header>
+        <div class= "chat-messages">
+            <div class="blue-color message">
+                <!-- <div class="message-sender"> John</div>
+                <div class="message-text"> Hey Jane How are you </div>
+                <div class="message-time"> 10:30 AM</div> -->
+            </div>
+            <div class="gray-color message">
+                <!-- <div class="message-sender"> Jane </div>
+                <div class="message-text">I am Fine Thank You</div>
+                <div class="message-time">10:31 AM</div> -->
+            </div>    
+        </div>
+        <form action="backend.php" class="input-control-form">
+                <input type="text" class="chat-input" required placeholder="Type Here John">
+                <button  class="button send-button">Go &#128640;	
+                </button>     
+        </form>
+        <button class="button reset-button">
+                Clear Chat
+        </button>
+        
+    </div> 
+
+    <script src="app.js"></script>
+
+
+
+    
+
+</body>
+</html>

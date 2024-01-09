@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: blue;
+    color: white;
+}
+.button{
+    border-radius: 6px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+.button:active{
+    transform: translateY(2px);
+}
+.person-selector{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.person-selector-button{
+    width: 300px;
+    background-color:black;
+    color: white;
+    height: 40px;
+}
+.active-person{
+    color: black;
+    background-color: white;
+}
+.Chat-contanior{
+    background-color: black;
+    font-family: cursive;
+    margin-top: 50px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+
+
+
+}
+.Chat-Header{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: larger;
+     padding-left: 200px;
+     padding-top: 60px;
+
+     
+}
+.chat-messages{
+   height: 200px;   
+   color: black;
+   overflow-y: auto;
+   margin: 20px;
+   padding-top: 20px;
+   overflow-y: scroll;
+  
+
+
+}
+    .chat-messages::-webkit-scrollbar{
+        display: none;
+    }
+.message{
+    display: flex;
+    flex-direction: column;
+}
+.message-sender{
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.message-text{
+    word-wrap: break-word;
+    color: blanchedalmond;
+}
+.message-time{
+    align-self: flex-end;
+    color:blanchedalmond
+}
+.blue-color{
+    background-color: blue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.gray-color{
+    background-color: gray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.input-control-form{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;    
+}
+.chat-input{
+    width: 500px;
+    height:50px;
+    border-radius: 10px;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+.send-button{
+    background-color: blue;
+    color: white;
+}
+.reset-button{
+    display: block;
+    margin:auto;   
+}
